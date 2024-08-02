@@ -48,6 +48,6 @@ CONFLICT (add/add): Merge conflict in feature.js
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
-- To resolve the conflict we need to pick the changes with `git add .` and commit with `git commit -m "Merge conflict(v2) resolved"`.
+- To resolve the conflict we need to pick the changes with `git add .` and commit with `git commit -m "merge conflict resolved"`.
 - Now we merge `master` into `feature4`, and we need to push it back to github with `git push origin feature4`.
 - Go to github and see the result in the `Pull requests`.
