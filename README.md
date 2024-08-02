@@ -1,4 +1,4 @@
-### Merge conflicts in feature branch workflow
+# Merge conflicts in feature branch workflow
 - If two developers, Developer1 and Developer2, are working on different features, they will create branches called feature1 and feature2, respectively. If they change the same file and the same line, a conflict will occur. Developer1 creates a pull request, which gets reviewed and merged into the master branch. When Developer2 tries to merge their feature branch into the master branch, a merge conflict will arise due to the changes on the same file and line.
 - Now, to simulate this, we will create feature1 branch feature2 branch.
 Create a new branch with `git branch feature1`, check the log with `git log --all —graph`.
